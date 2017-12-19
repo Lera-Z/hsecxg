@@ -10,7 +10,7 @@
 
 ## Данные
 
-(https://github.com/Lera-Z/hsecxg/blob/master/2017-12-19%2016.27.42.jpg)
+![alt text](https://github.com/Lera-Z/hsecxg/blob/master/2017-12-19%2016.27.42.jpg)
 
 ### Материал исследования
 Сколько и каких данных было взято, как они собирались.
