@@ -1,18 +1,15 @@
 library(rpart)
-
-loaddata = read.csv('./binary_table2.csv', sep=',')
+loaddata = read.csv('./binary_table.csv', sep=',')
 
 fit <- rpart(target ~ .,
              method="class", data=loaddata,
              control=rpart.control(minsplit = 10, cp = 0.01))
 
-plot(fit, uniform=TRUE,
-     main="Classification Tree for Kyphosis")
+rpart.plot(fit, uniform=TRUE,
+     main="Classification Tree")
 text(fit, use.n=T, all=T, cex=.7)
 
-library(rattle)
-library(rpart.plot)
-library(RColorBrewer)
-
-fancyRpartPlot(fit)
-
+t_pred = predict(fit,subset(loaddata, select = -c(target)),type="class")
+#fancyRpartPlot(fit)
+confMat <- table(loaddata$target,t_pred)
+accuracy <- sum(diag(confMat))/sum(confMat)
