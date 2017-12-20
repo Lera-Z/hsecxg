@@ -1,4 +1,4 @@
-# Название проекта
+# Сделайте меня развидеть это
 
 ### Материалы
 [Ссылка на таблицу с данными](https://github.com/Lera-Z/hsecxg/blob/master/initial_table.csv)  
