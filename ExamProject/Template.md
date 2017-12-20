@@ -2,7 +2,7 @@
 
 ### Материалы
 [Ссылка на таблицу с данными](https://github.com/Lera-Z/hsecxg/blob/master/initial_table.csv)  
-[Ссылка на код](https://github.com/...)
+[Ссылка на репозиторий](https://github.com/Lera-Z/hsecxg)
 
 ## Рабочая гипотеза
 
@@ -71,7 +71,7 @@ _заставьте мне обратно_  - не встретилось ни �
 
 1. Сначала я посмотрела на таблицу корреляции:
 
-![alt text](correlations_with_p.png)
+![alt text](https://github.com/Lera-Z/hsecxg/blob/master/correlations_with_p.png)
 
 [Ссылка на код с построением этой таблицы](https://github.com/hsecxg/blob/master/correlations.R)
 
@@ -108,11 +108,12 @@ X-squared = 1.7112, df = 1, p-value = 0.1908
 
 Дерево решений (R):
 ![alt text](https://github.com/hsecxg/blob/master/tree.jpg)
-[Ссылка на код](https://github.com/...)
+[Ссылка на код](https://github.com/hsecxg/blob/master/Untitled.R)
 
 
 Чтобы посмотреть важность переменных, я использовала случайный лес (variable importance):
 ![alt text](https://github.com/hsecxg/blob/master/Rplot.png)
+[Ссылка на код](https://github.com/hsecxg/blob/master/Forest.R)
 
 Видно, что здесь те же самые признаки, что и в части с корреляцией, выявлены как важные - Make и Is_Back.
 
