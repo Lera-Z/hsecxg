@@ -107,16 +107,16 @@ X-squared = 1.7112, df = 1, p-value = 0.1908
 Я использую дерево решений ( + случайный лес для выявления важности переменных (variable importance))
 
 Дерево решений (R)
-![alt text](https://github.com/hsecxg/blob/master/tree.jpg)
+![alt text](https://github.com/Lera-Z/hsecxg/blob/master/tree.jpg)
 
-[Ссылка на код](https://github.com/hsecxg/blob/master/Untitled.R)
+[Ссылка на код](https://github.com/Lera-Z/hsecxg/blob/master/Untitled.R)
 
 
 Чтобы посмотреть важность переменных, я использовала случайный лес (variable importance)
 
-![alt text](https://github.com/hsecxg/blob/master/Rplot.png)
+![alt text](https://github.com/Lera-Z/hsecxg/blob/master/Rplot.png)
 
-[Ссылка на код](https://github.com/hsecxg/blob/master/Forest.R)
+[Ссылка на код](https://github.com/Lera-Z/hsecxg/blob/master/Forest.R)
 
 Видно, что здесь те же самые признаки, что и в части с корреляцией, выявлены как важные - Make и Is_Back.
 
